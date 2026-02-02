@@ -48,10 +48,10 @@ ssh-keygen -t rsa -b 4096
 
 Les clés ont été sauvegardées dans `C:\Users\selma\.ssh\`.
 
-**Note sur la "Passphrase" :** Pour les besoins du TP, je n'ai pas défini de phrase de passe (passphrase).
+Pour les besoins du TP, je n'ai pas défini de passphrase.
 
--   _Pourquoi c'est risqué :_ Si un attaquant vole mon fichier de clé privée (`id_rsa`) sur mon ordinateur, il peut se connecter au serveur sans aucune barrière.
--   _Bonne pratique :_ Une passphrase agit comme une double sécurité (chiffrement de la clé). Même volée, la clé est inutilisable sans le code.
+-   _Pourquoi c'est risqué :_ Si un attaquant vole mon fichier de clé privée sur mon ordinateur, il peut se connecter au serveur sans aucune barrière.
+-   _Bonne pratique :_ Une passphrase agit comme une double sécurité (chiffrement de la clé). car même volée, la clé est inutilisable sans le code.
 
   
 ![clés générées](images/cles-generes.png)
